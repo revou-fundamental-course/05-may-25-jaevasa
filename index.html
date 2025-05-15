@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#package">Our Package</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="banner">
+        <div class="slider">
+            <img src="https://via.placeholder.com/800x300?text=Banner+1" class="slide active" alt="Banner 1">
+            <img src="https://via.placeholder.com/800x300?text=Banner+2" class="slide" alt="Banner 2">
+        </div>
+    </section>
+
+    <section id="package">
+        <h2>Our Package</h2>
+        <ul>
+            <li>Bali - 5 Days 4 Nights</li>
+            <li>Japan - 7 Days 6 Nights</li>
+            <li>Singapore - 3 Days 2 Nights</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label>Name: <input type="text" id="name" required></label><br>
+            <label>Email: <input type="email" id="email" required></label><br>
+            <label>Destination: <input type="text" id="destination" required></label><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
